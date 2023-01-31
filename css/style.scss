@@ -1,0 +1,143 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "bootstrap.css";
+
+$font_inter: 'Inter', sans-serif;
+$font_pro: 'Readex Pro', sans-serif;
+$main_color: #000000;
+
+header {
+  .container {
+    max-width: 1294px;
+    padding: 29px 0;
+
+    a.navbar-brand {
+      margin-right: 285px;
+      padding-top: 0;
+    }
+
+    .navbar-nav {
+      li {
+        margin-left: 33px;
+
+        &:first-of-type {
+          margin-left: 0;
+        }
+
+        a.nav-link {
+          font-family: $font_inter;
+          font-size: 14px;
+          line-height: 17px;
+          color: $main_color;
+          padding: 0;
+          cursor: pointer;
+        }
+
+        a.dropdown-toggle {
+          &::after {
+            background-image: url("../images/dropdown.svg");
+            width: 12px;
+            height: 8px;
+            border: none;
+            position: relative;
+            top: 4px;
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .icons {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+
+    li {
+      margin-left: 27px;
+
+      a {
+        display: block;
+        width: 24px;
+        height: 24px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.main_banner {
+  .owl-item img{
+    width: inherit;
+  }
+  .container {
+    max-width: 1294px;
+    background-color: #DCE5E2;
+    border-radius: 32px;
+    padding-top: 145px;
+    padding-bottom: 127px;
+    padding-left: 56px;
+
+    h1 {
+      font-family: $font_pro;
+      color: $main_color;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      font-style: normal;
+      margin-bottom: 19px;
+    }
+
+    p {
+      font-family: $font_inter;
+      color: $main_color;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 30px;
+    }
+
+    a.btn {
+      padding: 14px 53px;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      transition: 0.4s;
+      font-family: $font_inter;
+      color: $main_color;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    .main_banner_img {
+      bottom: 0;
+      right: 0;
+      width: 647px;
+      height: 550px;
+
+    }
+
+  }
+  .owl-dots{
+    text-align: center;
+
+    .owl-dot {
+      span {
+        width: 194px;
+        height: 2px;
+        background-color: black;
+        display: inline-block;
+        margin-right: 17px;
+        margin-left: 17px;
+      }
+    }
+  }
+}
