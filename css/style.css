@@ -237,7 +237,6 @@ header .icons li a img {
 }
 .most_selled .container article p {
   font-family: "Inter", sans-serif;
-  color: #000000;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -322,6 +321,208 @@ header .icons li a img {
 }
 .best_around .container article a.btn img:last-of-type {
   max-width: 355px;
+}
+
+.ideas .container {
+  max-width: 1294px;
+  padding-top: 47px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+.ideas .container h3 {
+  font-family: "Readex Pro", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  margin-bottom: 9px;
+}
+.ideas .container p {
+  font-family: "Readex Pro", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 56px;
+}
+.ideas .container .wrapper {
+  margin-bottom: 73px;
+}
+.ideas .container .wrapper .img_wrapper {
+  max-width: 620px;
+  border-radius: 16px;
+}
+.ideas .container .wrapper .img_wrapper img {
+  display: block;
+  width: 100%;
+}
+.ideas .container .wrapper .text_wrapper {
+  padding-top: 15px;
+}
+.ideas .container .wrapper .text_wrapper p {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+.ideas .container a.btn {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.ideas .container a.btn:after {
+  content: "";
+  background-image: url("../images/see_all.svg");
+  width: 25px;
+  height: 22px;
+  display: inline-block;
+}
+
+.tag_cloud .container {
+  max-width: 1294px;
+  padding-top: 51px;
+  padding-bottom: 68px;
+  text-align: center;
+}
+.tag_cloud .container h3 {
+  font-family: "Readex Pro", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  margin-bottom: 24px;
+}
+.tag_cloud .container form {
+  margin-bottom: 18px;
+  max-width: 650px;
+  width: 650px;
+  display: inline-block;
+  position: relative;
+}
+.tag_cloud .container form input {
+  width: 100%;
+  background-color: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+  padding: 21px 0 22px 67px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.tag_cloud .container form input::placeholder {
+  color: #000000;
+}
+.tag_cloud .container form button {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 21px;
+  background-image: url("../images/form_search.svg");
+  width: 30px;
+  height: 29px;
+  border: none;
+  background-color: transparent;
+}
+.tag_cloud .container .tag_wrapper {
+  max-width: 550px;
+  gap: 7px;
+  margin: auto;
+}
+.tag_cloud .container .tag_wrapper span {
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  padding: 12px 22px 13px 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+}
+
+.never_miss .container {
+  max-width: 1294px;
+  padding-top: 42px;
+  padding-bottom: 19px;
+}
+.never_miss .container .wrapper {
+  max-width: 935px;
+  background-color: #DCE5E2;
+  border-radius: 16px;
+  margin: auto;
+  padding-top: 47px;
+  padding-bottom: 43px;
+  text-align: center;
+}
+.never_miss .container .wrapper h3 {
+  font-family: "Readex Pro", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  margin-bottom: 9px;
+}
+.never_miss .container .wrapper p {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 14px;
+}
+.never_miss .container .wrapper img {
+  max-width: 233px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.never_miss .container .wrapper .form_wrapper {
+  max-width: 400px;
+  margin: auto;
+}
+.never_miss .container .wrapper .form_wrapper input {
+  background-color: transparent;
+  border: none;
+  border: 1px solid #000000;
+  border-radius: 54px 0 0 54px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 0 17px 32px;
+  width: 70%;
+  outline: none;
+}
+.never_miss .container .wrapper .form_wrapper input::placeholder {
+  color: #000000;
+}
+.never_miss .container .wrapper .form_wrapper input:-webkit-autofill {
+  transition: all 5000s ease-in-out 0s;
+}
+.never_miss .container .wrapper .form_wrapper button {
+  background-color: black;
+  border: none;
+  border-radius: 0 54px 54px 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 33px 17px 32px;
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
