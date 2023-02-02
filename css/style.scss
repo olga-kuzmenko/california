@@ -208,13 +208,19 @@ header {
       margin-bottom: 55px;
     }
 
-    .item-horizontal {
+    .item_laptop {
       padding-right: 42px;
       padding-left: 42px;
       box-shadow: (0px 4px 35px rgba(0, 0, 0, 0.25));
+      text-align: left;
+      margin-bottom: 30px;
+      transition: 0.4s;
+      &:hover{
+        transform: translateY(30px);
+      }
 
       p {
-        font-family: $font_pro;
+        font-family: $font_inter;
         color: $main_color;
         font-style: normal;
         font-weight: 400;
@@ -232,10 +238,118 @@ header {
         font-size: 32px;
         line-height: 38px;
         text-align: right;
+        margin-bottom: 0;
+      }
+
+    }
+
+    .item_watch {
+      box-shadow: (0px 4px 35px rgba(0, 0, 0, 0.25));
+      padding-left: 42px;
+      padding-right: 42px;
+      transition: 0.4s;
+      &:hover{
+        transform: translateY(30px);
+      }
+
+      p {
+        font-family: $font_inter;
+        color: $main_color;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        margin-bottom: 0;
+        text-align: right;
+      }
+
+      h4 {
+        font-family: $font_pro;
+        color: $main_color;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: right;
+        margin-bottom: 0;
+      }
+    }
+
+    .item_phones {
+      height: 772px;
+      box-shadow: (0px 4px 35px rgba(0, 0, 0, 0.25));
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      padding-top: 552px;
+      transition: 0.4s;
+      &:hover{
+        transform: translateY(30px);
+      }
+
+      p {
+        font-family: $font_inter;
+        color: $main_color;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        margin-bottom: 0;
+      }
+
+      h4 {
+        font-family: $font_pro;
+        color: $main_color;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 0;
       }
 
       img {
-        text-align: left;
+        position: absolute;
+        top: 144px;
+        left: 16px;
+      }
+    }
+
+    .item-tablet {
+      height: 772px;
+      box-shadow: (0px 4px 35px rgba(0, 0, 0, 0.25));
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      padding-top: 104px;
+      transition: 0.4s;
+      &:hover{
+        transform: translateY(30px);
+      }
+
+      p {
+        font-family: $font_inter;
+        color: $main_color;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        margin-bottom: 0;
+      }
+
+      h4 {
+        font-family: $font_pro;
+        color: $main_color;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 0;
+      }
+
+      img {
+        position: absolute;
+        bottom: 115px;
+        left: 0;
       }
     }
   }
@@ -302,6 +416,7 @@ header {
         color: #4B4B4B;
         text-align: left;
         margin-bottom: 25px;
+        min-height: 51px;
       }
     }
   }
@@ -383,6 +498,7 @@ header {
         }
 
         img {
+
           &:first-of-type {
             max-width: 259px;
           }
@@ -687,13 +803,15 @@ footer {
         }
       }
     }
-    .wrapper{
+
+    .wrapper {
       border-bottom: 1px solid #DCE5E2;
       margin-bottom: 52px;
       padding-bottom: 78px;
     }
-    .copyright{
-      a{
+
+    .copyright {
+      a {
         font-family: $font_inter;
         color: $main_color;
         text-decoration: none;
@@ -701,7 +819,8 @@ footer {
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
-        span{
+
+        span {
           display: inline-block;
           position: relative;
           bottom: -9px;
