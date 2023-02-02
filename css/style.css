@@ -374,18 +374,26 @@ header .icons li a img {
   line-height: 17px;
   margin-bottom: 56px;
 }
-.best_around .container article {
+.best_around .container .wrapper {
+  gap: 28px;
+}
+.best_around .container .wrapper article {
   text-align: center;
   background-color: #F8F9FA;
   border-radius: 16px;
   padding: 41px 77px 0 77px;
   max-width: 413px;
-  margin-left: 28px;
 }
-.best_around .container article:nth-child(1) {
-  margin-left: 0px;
+.best_around .container .wrapper article:first-of-type img {
+  min-width: 259px;
 }
-.best_around .container article p {
+.best_around .container .wrapper article:nth-child(2) img {
+  max-width: 294px;
+}
+.best_around .container .wrapper article:nth-child(3) img {
+  max-width: 355px;
+}
+.best_around .container .wrapper p {
   font-family: "Readex Pro", sans-serif;
   color: #000000;
   font-style: normal;
@@ -394,7 +402,7 @@ header .icons li a img {
   line-height: 17px;
   margin-bottom: inherit;
 }
-.best_around .container article h5 {
+.best_around .container .wrapper h5 {
   font-family: "Readex Pro", sans-serif;
   color: #000000;
   font-weight: 400;
@@ -402,7 +410,7 @@ header .icons li a img {
   line-height: 35px;
   margin-bottom: 30px;
 }
-.best_around .container article a.btn {
+.best_around .container .wrapper a.btn {
   font-family: "Readex Pro", sans-serif;
   color: #000000;
   font-weight: 400;
@@ -414,17 +422,8 @@ header .icons li a img {
   margin-bottom: 44px;
   transition: 0.4s;
 }
-.best_around .container article a.btn:hover {
+.best_around .container .wrapper a.btn:hover {
   transform: scale(1.2);
-}
-.best_around .container article a.btn img:first-of-type {
-  max-width: 259px;
-}
-.best_around .container article a.btn img:nth-child(2) {
-  max-width: 294px;
-}
-.best_around .container article a.btn img:last-of-type {
-  max-width: 355px;
 }
 
 .ideas .container {
