@@ -109,7 +109,7 @@ header .icons li a img {
   margin-left: 17px;
   margin-right: 17px;
   position: relative;
-  bottom: 75px;
+  bottom: 40px;
 }
 .main_banner .owl-nav .owl-prev {
   position: absolute;
@@ -494,7 +494,6 @@ header .icons li a img {
 }
 .never_miss .container .wrapper .form_wrapper input {
   background-color: transparent;
-  border: none;
   border: 1px solid #000000;
   border-radius: 54px 0 0 54px;
   font-family: "Inter", sans-serif;
@@ -505,6 +504,7 @@ header .icons li a img {
   padding: 16px 0 17px 32px;
   width: 70%;
   outline: none;
+  display: block;
 }
 .never_miss .container .wrapper .form_wrapper input::placeholder {
   color: #000000;
@@ -523,6 +523,72 @@ header .icons li a img {
   line-height: 17px;
   padding: 16px 33px 17px 32px;
   width: 30%;
+  display: block;
+}
+
+footer {
+  background-color: #F8F9FA;
+  border-top: 1px solid #DCE5E2;
+}
+footer .container {
+  max-width: 1294px;
+  padding: inherit;
+  padding-top: 44px;
+  padding-bottom: 4px;
+}
+footer .container a {
+  margin-bottom: 18px;
+  display: inline-block;
+}
+footer .container a img {
+  display: block;
+}
+footer .container p {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+footer .container ul {
+  list-style: none;
+}
+footer .container ul li:first-of-type {
+  font-family: "Readex Pro", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 19px;
+}
+footer .container ul li a {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 14px;
+  text-decoration: none;
+}
+footer .container .wrapper {
+  border-bottom: 1px solid #DCE5E2;
+  margin-bottom: 52px;
+  padding-bottom: 78px;
+}
+footer .container .copyright a {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+footer .container .copyright a span {
+  display: inline-block;
+  position: relative;
+  bottom: -9px;
 }
 
 /*# sourceMappingURL=style.css.map */
