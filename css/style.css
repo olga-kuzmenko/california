@@ -1,8 +1,11 @@
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
 @import "bootstrap.css";
-header .container {
+.container {
   max-width: 1294px;
+}
+
+header .container {
   padding: 29px 0;
 }
 header .container a.navbar-brand {
@@ -50,7 +53,6 @@ header .icons li a img {
 }
 
 .main_banner .container {
-  max-width: 1294px;
   background-color: #DCE5E2;
   border-radius: 32px;
   padding-top: 145px;
@@ -138,7 +140,6 @@ header .icons li a img {
 }
 
 .latest_offers .container {
-  max-width: 1294px;
   padding-top: 47px;
   padding-bottom: 28px;
   text-align: center;
@@ -197,6 +198,7 @@ header .icons li a img {
   padding-left: 42px;
   padding-right: 42px;
   transition: 0.4s;
+  overflow: hidden;
 }
 .latest_offers .container .item_watch:hover {
   transform: translateY(30px);
@@ -293,7 +295,6 @@ header .icons li a img {
 }
 
 .most_selled .container {
-  max-width: 1294px;
   padding-top: 72px;
   padding-bottom: 27px;
 }
@@ -349,10 +350,8 @@ header .icons li a img {
 }
 
 .best_around .container {
-  max-width: 1294px;
   padding-top: 47px;
   padding-bottom: 28px;
-  text-align: center;
 }
 .best_around .container h3 {
   font-family: "Readex Pro", sans-serif;
@@ -429,10 +428,8 @@ header .icons li a img {
 }
 
 .ideas .container {
-  max-width: 1294px;
   padding-top: 47px;
   padding-bottom: 24px;
-  text-align: center;
 }
 .ideas .container h3 {
   font-family: "Readex Pro", sans-serif;
@@ -492,7 +489,6 @@ header .icons li a img {
 }
 
 .tag_cloud .container {
-  max-width: 1294px;
   padding-top: 51px;
   padding-bottom: 68px;
   text-align: center;
@@ -557,7 +553,6 @@ header .icons li a img {
 }
 
 .never_miss .container {
-  max-width: 1294px;
   padding-top: 42px;
   padding-bottom: 19px;
 }
@@ -636,7 +631,6 @@ footer {
   border-top: 1px solid #DCE5E2;
 }
 footer .container {
-  max-width: 1294px;
   padding-top: 44px;
   padding-bottom: 4px;
 }

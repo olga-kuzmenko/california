@@ -1,9 +1,5 @@
 @media only screen and (max-width: 1280px) {
 
-    .best_around .container .wrapper {
-        gap: 11px;
-    }
-
     .main_banner .owl-nav .owl-prev {
         left: 19px;
     }
@@ -18,13 +14,79 @@
     .owl-nav {
         display: none;
     }
+
     header .container a.navbar-brand {
         margin-right: 228px;
     }
-    .latest_offers .container .item_laptop{
+
+    .latest_offers .container .item_laptop {
         overflow: hidden;
     }
-    .latest_offers .container .item_watch{
+
+    .latest_offers .container .item_watch {
         padding-left: 0;
+    }
+
+    .main_banner .owl-dots .owl-dot span {
+        bottom: 64px;
+    }
+
+    .item_watch .wrapper {
+        position: relative;
+        right: 14px;
+    }
+
+    .item-tablet .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item_watch .wrapper {
+        position: relative;
+        right: -180px;
+    }
+
+    .ideas .container .wrapper .img_wrapper {
+        margin: auto;
+    }
+
+    .ideas .container .wrapper .text_wrapper p {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+    header .container a.navbar-brand {
+        margin-right: 0;
+    }
+
+    .main_banner .container h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .main_banner .container p{
+        font-size: 14px;
+    }
+    .main_banner .owl-dots .owl-dot span{
+        width: 81px;
+    }
+    .main_banner .container .main_banner_img{
+        right: 231px;
+        opacity: 20%;
+    }
+    .tag_cloud .container form{
+        width: 364px;
+    }
+    .never_miss .container .wrapper .form_wrapper{
+        width: 300px;
+    }
+    footer .menu-list{
+        display: none;
+    }
+    .item_watch .wrapper{
+        right: 144px;
     }
 }
