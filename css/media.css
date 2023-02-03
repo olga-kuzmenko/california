@@ -1,14 +1,16 @@
 @media only screen and (max-width: 1280px){
-    .container{
-        margin-right: 10px;
-        margin-left: 10px;
-        overflow: hidden;
-    }
+
     .best_around .container .wrapper{
         gap: 11px;
     }
     .latest_offers .container .row{
         margin: inherit;
+    }
+    .main_banner .owl-nav .owl-prev{
+        left: 19px;
+    }
+    .main_banner .owl-nav .owl-next{
+        right: 19px;
     }
 
 }

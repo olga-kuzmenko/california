@@ -2,6 +2,7 @@
 @import "owl.theme.default.css";
 @import "bootstrap.css";
 header .container {
+  max-width: 1294px;
   padding: 29px 0;
 }
 header .container a.navbar-brand {
@@ -294,7 +295,6 @@ header .icons li a img {
 
 .most_selled .container {
   max-width: 1294px;
-  padding: inherit;
   padding-top: 72px;
   padding-bottom: 27px;
 }
@@ -351,7 +351,6 @@ header .icons li a img {
 
 .best_around .container {
   max-width: 1294px;
-  padding: inherit;
   padding-top: 47px;
   padding-bottom: 28px;
   text-align: center;
@@ -375,7 +374,7 @@ header .icons li a img {
   margin-bottom: 56px;
 }
 .best_around .container .wrapper {
-  gap: 28px;
+  gap: 22px;
 }
 .best_around .container .wrapper article {
   text-align: center;
@@ -639,7 +638,6 @@ footer {
 }
 footer .container {
   max-width: 1294px;
-  padding: inherit;
   padding-top: 44px;
   padding-bottom: 4px;
 }

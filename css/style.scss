@@ -8,6 +8,7 @@ $main_color: #000000;
 
 header {
   .container {
+    max-width: 1294px;
     padding: 29px 0;
 
 
@@ -363,7 +364,6 @@ header {
 .most_selled {
   .container {
     max-width: 1294px;
-    padding: inherit;
     padding-top: 72px;
     padding-bottom: 27px;
 
@@ -430,7 +430,6 @@ header {
 .best_around {
   .container {
     max-width: 1294px;
-    padding: inherit;
     padding-top: 47px;
     padding-bottom: 28px;
     text-align: center;
@@ -456,7 +455,7 @@ header {
     }
 
     .wrapper {
-      gap: 28px;
+      gap: 22px;
 
       article {
         text-align: center;
@@ -766,7 +765,6 @@ footer {
 
   .container {
     max-width: 1294px;
-    padding: inherit;
     padding-top: 44px;
     padding-bottom: 4px;
 
