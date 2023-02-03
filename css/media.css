@@ -120,5 +120,7 @@
         margin-left: 0;
         padding: 0;
     }
-
+.most_selled .wrapper {
+    gap: 20px;
+}
 }
