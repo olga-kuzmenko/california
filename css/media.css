@@ -7,6 +7,9 @@
     .main_banner .owl-nav .owl-next {
         right: 19px;
     }
+    .owl-item{
+        padding: 0 15px;
+    }
 
 }
 
