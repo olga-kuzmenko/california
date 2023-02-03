@@ -125,7 +125,7 @@ header {
 
     .main_banner_img {
       bottom: 0;
-      right: 0px;
+      right: 0;
       width: 647px;
       height: 550px;
 
@@ -167,7 +167,7 @@ header {
         content: "";
         width: 14px;
         height: 26px;
-        background-image: url("/images/owl_prev.svg");
+        background-image: url("../images/owl_prev.svg");
       }
     }
 
@@ -181,7 +181,7 @@ header {
         content: "";
         width: 14px;
         height: 26px;
-        background-image: url("/images/owl_next.svg");
+        background-image: url("../images/owl_next.svg");
       }
     }
   }
