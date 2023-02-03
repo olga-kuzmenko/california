@@ -6,6 +6,9 @@ $font_inter: 'Inter', sans-serif;
 $font_pro: 'Readex Pro', sans-serif;
 $main_color: #000000;
 
+body{
+  overflow-x: hidden;
+}
 .container {
   max-width: 1294px;
 }
