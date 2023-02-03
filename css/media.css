@@ -89,4 +89,36 @@
     .item_watch .wrapper{
         right: 144px;
     }
+    .latest_offers .container .item_phones{
+        height: 540px;
+    }
+    .latest_offers .container .item_phones img{
+        left:64px;
+        top: 20px;
+    }
+    .latest_offers .container .item_phones{
+        padding-top: 400px;
+    }
+    .latest_offers .container .item-tablet img{
+        width: 100%;
+        bottom: -128px;
+    }
+    .latest_offers .container .item-tablet{
+        height: 540px;
+    }
+    .navbar-nav{
+        align-items: center;
+        padding-top: 30px;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    header .icons{
+        justify-content: center;
+    }
+    header .icons li:first-of-type{
+        margin-left: 0;
+        padding: 0;
+    }
+
 }
