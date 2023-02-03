@@ -2,7 +2,6 @@
 @import "owl.theme.default.css";
 @import "bootstrap.css";
 header .container {
-  max-width: 1294px;
   padding: 29px 0;
 }
 header .container a.navbar-brand {
@@ -56,6 +55,7 @@ header .icons li a img {
   padding-top: 145px;
   padding-bottom: 127px;
   padding-left: 56px;
+  overflow: hidden;
 }
 .main_banner .container h1 {
   font-family: "Readex Pro", sans-serif;
@@ -91,7 +91,7 @@ header .icons li a img {
 }
 .main_banner .container .main_banner_img {
   bottom: 0;
-  right: 0;
+  right: 0px;
   width: 647px;
   height: 550px;
 }
@@ -389,9 +389,13 @@ header .icons li a img {
 }
 .best_around .container .wrapper article:nth-child(2) img {
   max-width: 294px;
+  position: relative;
+  right: 16px;
 }
 .best_around .container .wrapper article:nth-child(3) img {
   max-width: 355px;
+  position: relative;
+  right: 48px;
 }
 .best_around .container .wrapper p {
   font-family: "Readex Pro", sans-serif;

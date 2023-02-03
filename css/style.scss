@@ -8,8 +8,8 @@ $main_color: #000000;
 
 header {
   .container {
-    max-width: 1294px;
     padding: 29px 0;
+
 
     a.navbar-brand {
       margin-right: 285px;
@@ -78,6 +78,7 @@ header {
     padding-top: 145px;
     padding-bottom: 127px;
     padding-left: 56px;
+    overflow: hidden;
 
     h1 {
       font-family: $font_pro;
@@ -117,7 +118,7 @@ header {
 
     .main_banner_img {
       bottom: 0;
-      right: 0;
+      right: 0px;
       width: 647px;
       height: 550px;
 
@@ -472,11 +473,15 @@ header {
         &:nth-child(2){
           img {
             max-width: 294px;
+            position: relative;
+            right: 16px;
           }
         }
         &:nth-child(3){
           img {
             max-width: 355px;
+            position: relative;
+            right: 48px;
           }
         }
       }
